@@ -26,7 +26,7 @@ display: flex;
 display: flex;
 justify-content: center;
 align-items: center;
-/* position: relative; */
+position: relative;
 }
 
 .swiper-slide{
@@ -52,13 +52,13 @@ height: 700px;
 
 .custom-prev{
   position: absolute;
-  left: 33.5%;
+  left: 32.5%;
   z-index: 10;
 }
 
 .custom-next{
 position: absolute;
-right: 36%;
+right: 35%;
 z-index: 10;
 }
 
