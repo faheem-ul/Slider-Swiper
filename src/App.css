@@ -1,0 +1,65 @@
+
+body{
+  background: #000;
+}
+
+.parent-div{
+display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.outer-div{
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  Width:347.39px;
+  Height:471.87px;
+  border: 1px solid #FFFFFF;
+  border-radius: 16px;
+}
+
+
+.swiper-main-div{
+  max-width: 1440px;
+display: flex;
+justify-content: center;
+align-items: center;
+/* position: relative; */
+}
+
+.swiper-slide{
+  scale: 0.9 0.9;
+ 
+} 
+
+.swiper-slide-prev{
+  padding-left:70px;
+
+}
+
+.swiper-slide-active {
+scale: 1 1.2;
+height: 700px;
+}
+
+.mySwiper{
+  transform: translate3d(0px, 0px, 0px);
+  transition-duration: 3ms;
+  transition-delay: 3ms;
+}
+
+.custom-prev{
+  position: absolute;
+  left: 33.5%;
+  z-index: 10;
+}
+
+.custom-next{
+position: absolute;
+right: 36%;
+z-index: 10;
+}
+
+
